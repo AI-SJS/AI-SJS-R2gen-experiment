@@ -37,6 +37,13 @@ For `IU X-Ray`, you can download the dataset from [here](https://drive.google.co
 ## Download R2Gen Encoder 
 You can download the models we trained for each dataset from [here](https://drive.google.com/drive/folders/1E44ufzy6K0IF3UQ0j6vAtydLCdtjnvqt?usp=drive_link).
 
+## ⚠️ Custom File Replacement (중요)
+
+본 프로젝트에서는 R2Gen 원본 코드에서 아래 두 파일을 커스텀 버전으로 수정하여 사용합니다.  
+따라서 레포지토리를 클론한 뒤 **반드시 다음 두 파일을 교체해야 합니다.**
+
+- `models/r2gen.py`
+- `models/visual_extractor.py`
 ---
 
 ## 📘 Run on IU X-Ray

@@ -2,7 +2,7 @@
 
 
 
-<img width="1323" height="648" alt="image" src="https://github.com/user-attachments/assets/51b85df0-dc4a-4eb4-a9ee-da989556447a" />
+<img width="1034" height="531" alt="image" src="https://github.com/user-attachments/assets/d3c89ed6-9693-452e-94a8-eb44bd1e24fe" />
 
 ## Installation
 
@@ -34,7 +34,7 @@ We use datasets (IU X-Ray) in our paper.
 
 For `IU X-Ray`, you can download the dataset from [here](https://drive.google.com/file/d/1c0BXEuDy8Cmm2jfN0YYGkQxFZd2ZIoLg/view?usp=sharing) and then put the files in `data/iu_xray`.
 
-## Download R2Gen Encoder 
+## Download R2Gen Encoder (Encoder_experiment)
 You can download the models we trained for each dataset from [here](https://drive.google.com/drive/folders/1E44ufzy6K0IF3UQ0j6vAtydLCdtjnvqt?usp=drive_link).
 
 ## ⚠️ Custom File Replacement (중요)
@@ -46,7 +46,7 @@ You can download the models we trained for each dataset from [here](https://driv
 - `modules/visual_extractor.py`
 ---
 
-## 📘 Run on IU X-Ray
+## Run on IU X-Ray (Encoder_experiment)
 
 To train the model on the IU X-Ray dataset, run the following command:
 
@@ -67,7 +67,7 @@ To train the model on the IU X-Ray dataset, run the following command:
   # --visual_extractor xcit_medium_24_p16_224
 ```
 
-## 📘 Test on IU X-Ray
+## Test on IU X-Ray (Encoder_experiment)
 
 To evaluate the trained model on the IU X-Ray dataset, run:
 

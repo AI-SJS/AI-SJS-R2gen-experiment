@@ -116,7 +116,7 @@ You can download the models we trained for each dataset from [here](https://driv
 ## Download R2Gen_MedLlama-2-7b_Q-former (Decoder_experiment)
 You can download the models we trained for each dataset from [here](https://drive.google.com/drive/folders/1Hh4TZujpzftNWc8lI8b9NNRXXaliaeA4?usp=sharing).
 
-## Run on IU X-Ray, R2Gen_Llam-2-7b
+## Run on IU X-Ray, R2Gen_Llama-2-7b
 
 To train the model on the IU X-Ray dataset, run the following command:
 
@@ -135,7 +135,7 @@ To train the model on the IU X-Ray dataset, run the following command:
   --seed 9223
 ```
 
-## Test on IU X-Ray, R2Gen_Llam-2-7b
+## Test on IU X-Ray, R2Gen_Llama-2-7b
 
 To evaluate the trained model on the IU X-Ray dataset, run:
 
@@ -153,7 +153,7 @@ To evaluate the trained model on the IU X-Ray dataset, run:
   --freeze_llama
 ```
 
-## Run on IU X-Ray, R2Gen_MedLlama-2-7b
+## Run on IU X-Ray, R2Gen_MedLlama2-7b
 
 To train the model on the IU X-Ray dataset, run the following command:
 
@@ -172,7 +172,7 @@ To train the model on the IU X-Ray dataset, run the following command:
   --seed 9223
 ```
 
-## Test on IU X-Ray, R2Gen_MedLlama-2-7b
+## Test on IU X-Ray, R2Gen_MedLlama2-7b
 
 To evaluate the trained model on the IU X-Ray dataset, run:
 
@@ -190,7 +190,7 @@ To evaluate the trained model on the IU X-Ray dataset, run:
   --freeze_llama
 ```
 
-## Run on IU X-Ray, R2Gen_MedLlama-2-7b_Q-former
+## Run on IU X-Ray, R2Gen_MedLlama2-7b_Q-former
 
 To train the model on the IU X-Ray dataset, run the following command:
 
@@ -209,7 +209,7 @@ To train the model on the IU X-Ray dataset, run the following command:
   --seed 9223
 ```
 
-## Test on IU X-Ray, R2Gen_MedLlama-2-7b_Q-former
+## Test on IU X-Ray, R2Gen_MedLlama2-7b_Q-former
 
 To evaluate the trained model on the IU X-Ray dataset, run:
 

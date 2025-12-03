@@ -41,7 +41,7 @@ For `IU X-Ray`, you can download the dataset from [here](https://drive.google.co
 ## METEOR Download
 This project requires the METEOR scorer.
 
-🔗 Download meteor-1.5.jar from:
+🔗 Download meteor from:
 [METEOR Download](https://github.com/zhjohnchan/R2Gen/tree/main/pycocoevalcap/meteor)
 
 

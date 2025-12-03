@@ -9,8 +9,8 @@
 To get started, clone the repository and install dependencies:
 
 ```bash
-!git clone https://github.com/zhjohnchan/R2Gen.git
-%cd R2Gen
+!git clone https://github.com/AI-SJS/AI-SJS-R2gen-experiment.git
+%cd AI-SJS-R2gen-experiment
 !ls
 ```
 
@@ -44,6 +44,7 @@ This project requires the METEOR scorer.
 🔗 Download meteor from:
 [METEOR Download](https://github.com/zhjohnchan/R2Gen/tree/main/pycocoevalcap/meteor)
 
+After downloading, please place the `meteor` file into the following directory: R2Gen/pycocoevalcap/
 
 
 ## Download R2Gen Encoder (Encoder_experiment)

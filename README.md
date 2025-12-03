@@ -2,7 +2,8 @@
 
 
 
-<img width="628" height="323" alt="image" src="https://github.com/user-attachments/assets/f2ce0522-9297-40da-8812-b84a7bdd02a8" />
+<img width="628" height="323" alt="image" src="https://github.com/user-attachments/assets/65836de3-8053-4efc-a525-ddeec8db1e13" />
+
 
 
 ## Installation

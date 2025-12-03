@@ -1,4 +1,4 @@
-# R2Gen 인코더 디코더 실험
+# R2Gen을 활용한 Vision Encoder 및 Text Decoder 아키텍처 비교 실험
 
 
 

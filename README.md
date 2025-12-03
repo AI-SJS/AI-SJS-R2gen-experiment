@@ -43,7 +43,7 @@ You can download the models we trained for each dataset from [here](https://driv
 따라서 레포지토리를 클론한 뒤 **반드시 다음 두 파일을 교체해야 합니다.**
 
 - `models/r2gen.py`
-- `models/visual_extractor.py`
+- `modules/visual_extractor.py`
 ---
 
 ## 📘 Run on IU X-Ray

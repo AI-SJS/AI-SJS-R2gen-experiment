@@ -45,17 +45,19 @@ To train the model on the IU X-Ray dataset, run the following command:
 
 ```bash
 !python main_train.py \
-  --image_dir /content/iu_xray/images \
-  --ann_path /content/iu_xray/annotation.json \
   --dataset_name iu_xray \
-  --max_seq_length 60 \
-  --threshold 3 \
-  --batch_size 16 \
-  --epochs 15 \
-  --save_dir "/content/drive/MyDrive/Colab Notebooks/APID" \
-  --step_size 50 \
-  --gamma 0.1 \
+  --ann_path "/content/iu_xray/annotation.json" \
+  --image_dir "/content/iu_xray/images" \
+  --save_dir "/content/iu_xray/saves/xcit_medium_24_p16_224" \
+  --visual_extractor xcit_medium_24_p16_224 \
+  --epochs 15
   --seed 9223
+  # --visual_extractor resnet101
+  # --visual_extractor densenet121
+  # --visual_extractor vit_b_16
+  # --visual_extractor vit_b_32
+  # --visual_extractor xcit_small_12_p16_224
+  # --visual_extractor xcit_medium_24_p16_224
 ```
 
 ## 📘 Test on IU X-Ray
@@ -64,15 +66,12 @@ To evaluate the trained model on the IU X-Ray dataset, run:
 
 ```bash
 !python main_test.py \
-  --image_dir /content/iu_xray/images \
-  --ann_path /content/iu_xray/annotation.json \
   --dataset_name iu_xray \
-  --max_seq_length 60 \
-  --threshold 3 \
-  --batch_size 16 \
-  --save_dir "/content/resnet101" \
-  --seed 9223 \
-  --load "/content/iu_xray/saves/resnet101/model_best.pth"
+  --ann_path "/content/iu_xray/annotation.json" \
+  --image_dir "/content/iu_xray/images" \
+  --save_dir "/content/iu_xray/saves/xcit_medium_24_p16_224" \
+  --load "/content/iu_xray/saves/xcit_medium_24_p16_224/model_best.pth" \
+  --visual_extractor xcit_medium_24_p16_224
 ```
 
 
